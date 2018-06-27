@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C9BF62120D0EE34008C01E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BF62020D0EE34008C01E3 /* AppDelegate.swift */; };
+		8C9BF62820D0EE35008C01E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9BF62720D0EE35008C01E3 /* Assets.xcassets */; };
+		8C9BF63320D0EFA9008C01E3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BF63220D0EFA9008C01E3 /* IntroViewController.swift */; };
+		8C9BF63720D0F0F6008C01E3 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BF63620D0F0F6008C01E3 /* PageViewController.swift */; };
+		8C9BF63920D0F397008C01E3 /* IntroPageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9BF63820D0F397008C01E3 /* IntroPageHelper.swift */; };
+		8CDB5B5C20E34B0800392723 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB5B5B20E34B0800392723 /* ThemeManager.swift */; };
+		8CDB5B5F20E3513F00392723 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CDB5B5E20E3513F00392723 /* Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C9BF61D20D0EE34008C01E3 /* Telegram Intro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telegram Intro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C9BF62020D0EE34008C01E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8C9BF62720D0EE35008C01E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C9BF62C20D0EE35008C01E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9BF63220D0EFA9008C01E3 /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		8C9BF63620D0F0F6008C01E3 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		8C9BF63820D0F397008C01E3 /* IntroPageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPageHelper.swift; sourceTree = "<group>"; };
+		8CDB5B5B20E34B0800392723 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		8CDB5B5E20E3513F00392723 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C9BF61A20D0EE34008C01E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C9BF61420D0EE34008C01E3 = {
+			isa = PBXGroup;
+			children = (
+				8C9BF61F20D0EE34008C01E3 /* Source */,
+				8C9BF61E20D0EE34008C01E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C9BF61E20D0EE34008C01E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF61D20D0EE34008C01E3 /* Telegram Intro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C9BF61F20D0EE34008C01E3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF62720D0EE35008C01E3 /* Assets.xcassets */,
+				8CDB5B5920E34A5E00392723 /* Application */,
+				8CDB5B5D20E3513400392723 /* Extensions */,
+				8C9BF63A20D0F3A3008C01E3 /* Helpers */,
+				8C9BF63420D0F012008C01E3 /* Controllers */,
+				8CDB5B5A20E34AB800392723 /* Managers */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8C9BF63420D0F012008C01E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF63220D0EFA9008C01E3 /* IntroViewController.swift */,
+				8C9BF63620D0F0F6008C01E3 /* PageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8C9BF63A20D0F3A3008C01E3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF63820D0F397008C01E3 /* IntroPageHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8CDB5B5920E34A5E00392723 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8C9BF62020D0EE34008C01E3 /* AppDelegate.swift */,
+				8C9BF62C20D0EE35008C01E3 /* Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8CDB5B5A20E34AB800392723 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB5B5B20E34B0800392723 /* ThemeManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		8CDB5B5D20E3513400392723 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8CDB5B5E20E3513F00392723 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C9BF61C20D0EE34008C01E3 /* Telegram Intro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C9BF62F20D0EE35008C01E3 /* Build configuration list for PBXNativeTarget "Telegram Intro" */;
+			buildPhases = (
+				8C9BF61920D0EE34008C01E3 /* Sources */,
+				8C9BF61A20D0EE34008C01E3 /* Frameworks */,
+				8C9BF61B20D0EE34008C01E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Telegram Intro";
+			productName = UIPageViewController;
+			productReference = 8C9BF61D20D0EE34008C01E3 /* Telegram Intro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C9BF61520D0EE34008C01E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sergey Popov";
+				TargetAttributes = {
+					8C9BF61C20D0EE34008C01E3 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 8C9BF61820D0EE34008C01E3 /* Build configuration list for PBXProject "Telegram Intro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = 8C9BF61420D0EE34008C01E3;
+			productRefGroup = 8C9BF61E20D0EE34008C01E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C9BF61C20D0EE34008C01E3 /* Telegram Intro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C9BF61B20D0EE34008C01E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9BF62820D0EE35008C01E3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C9BF61920D0EE34008C01E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CDB5B5F20E3513F00392723 /* Extension.swift in Sources */,
+				8CDB5B5C20E34B0800392723 /* ThemeManager.swift in Sources */,
+				8C9BF63320D0EFA9008C01E3 /* IntroViewController.swift in Sources */,
+				8C9BF62120D0EE34008C01E3 /* AppDelegate.swift in Sources */,
+				8C9BF63720D0F0F6008C01E3 /* PageViewController.swift in Sources */,
+				8C9BF63920D0F397008C01E3 /* IntroPageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C9BF62D20D0EE35008C01E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C9BF62E20D0EE35008C01E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C9BF63020D0EE35008C01E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WYA2JEST2;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlcori.telegramintro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8C9BF63120D0EE35008C01E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9WYA2JEST2;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Application/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.carlcori.telegramintro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C9BF61820D0EE34008C01E3 /* Build configuration list for PBXProject "Telegram Intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9BF62D20D0EE35008C01E3 /* Debug */,
+				8C9BF62E20D0EE35008C01E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C9BF62F20D0EE35008C01E3 /* Build configuration list for PBXNativeTarget "Telegram Intro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C9BF63020D0EE35008C01E3 /* Debug */,
+				8C9BF63120D0EE35008C01E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C9BF61520D0EE34008C01E3 /* Project object */;
+}
