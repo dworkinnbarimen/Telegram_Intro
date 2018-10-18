@@ -1,7 +1,7 @@
 ## Light and Dark theme
 <p align="center">
-<img src="https://raw.githubusercontent.com/dworkinnbarimen/telegram_intro/master/Resources/dark_intro.gif" width="180"/>
-<img src="https://raw.githubusercontent.com/dworkinnbarimen/telegram_intro/master/Resources/light_intro.gif" width="180"/>
+<img src="https://raw.githubusercontent.com/dworkinnn/telegram_intro/master/Resources/dark_intro.gif" width="180"/>
+<img src="https://raw.githubusercontent.com/dworkinnn/telegram_intro/master/Resources/light_intro.gif" width="180"/>
 </p>
 
 ## Usage
