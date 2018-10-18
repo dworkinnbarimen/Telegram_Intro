@@ -29,4 +29,4 @@ return true
 Telegram Intro is written in Swift 4 and requires iOS 10.0 or later.
 
 ## License
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/dworkinnbarimen/telegram_intro/blob/master/LICENSE) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](https://github.com/dworkinnn/telegram_intro/blob/master/LICENSE) file for details
